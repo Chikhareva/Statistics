@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/stats/StatsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/stats/StatsServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/stats/StatsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/stats/StatsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/stats/StatsServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/netology/stats/StatsServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.netology.stats" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chikhareva\IdeaProjects\statistics" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -53,7 +58,7 @@
       <recent name="ru.netology.stats" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StatsServiceTest.calculateMonthSaleOverAverage">
+  <component name="RunManager" selected="JUnit.StatsServiceTest.calculateMonthUnderAverageSum">
     <configuration name="StatsServiceTest.averageSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="statistics" />
       <extension name="coverage">
@@ -86,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatsServiceTest.calculateSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StatsServiceTest.calculateMonthUnderAverageSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="statistics" />
       <extension name="coverage">
         <pattern>
@@ -96,7 +101,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.stats" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatsServiceTest" />
-      <option name="METHOD_NAME" value="calculateSum" />
+      <option name="METHOD_NAME" value="calculateMonthUnderAverageSum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatsServiceTest.calculateMonthUnderAverageSum" />
         <item itemvalue="JUnit.StatsServiceTest.calculateMonthSaleOverAverage" />
         <item itemvalue="JUnit.StatsServiceTest.salesMinimumMonth" />
         <item itemvalue="JUnit.StatsServiceTest.salesMaximumMonth" />
         <item itemvalue="JUnit.StatsServiceTest.averageSum" />
-        <item itemvalue="JUnit.StatsServiceTest.calculateSum" />
       </list>
     </recent_temporary>
   </component>
@@ -166,42 +171,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="24" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1610800747941" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1610888814919">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1610888814919" />
     <state x="484" y="232" width="397" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610800756229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="232" width="397" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1610800756229" />
-    <state width="1322" height="148" key="GridCell.Tab.0.bottom" timestamp="1610885398583">
+    <state width="1322" height="148" key="GridCell.Tab.0.bottom" timestamp="1610893737578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610885398583" />
-    <state width="1322" height="148" key="GridCell.Tab.0.center" timestamp="1610885398583">
+    <state width="1322" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610893737578" />
+    <state width="1322" height="148" key="GridCell.Tab.0.center" timestamp="1610893737578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="148" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610885398583" />
-    <state width="1322" height="148" key="GridCell.Tab.0.left" timestamp="1610885398583">
+    <state width="1322" height="148" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610893737577" />
+    <state width="1322" height="148" key="GridCell.Tab.0.left" timestamp="1610893737577">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="148" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610885398583" />
-    <state width="1322" height="148" key="GridCell.Tab.0.right" timestamp="1610885398583">
+    <state width="1322" height="148" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610893737577" />
+    <state width="1322" height="148" key="GridCell.Tab.0.right" timestamp="1610893737578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="148" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610885398583" />
-    <state width="1322" height="216" key="GridCell.Tab.1.bottom" timestamp="1610881644911">
+    <state width="1322" height="148" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610893737578" />
+    <state width="1322" height="216" key="GridCell.Tab.1.bottom" timestamp="1610889076212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610881644911" />
-    <state width="1322" height="216" key="GridCell.Tab.1.center" timestamp="1610881644911">
+    <state width="1322" height="216" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610889076212" />
+    <state width="1322" height="216" key="GridCell.Tab.1.center" timestamp="1610889076212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1610881644911" />
-    <state width="1322" height="216" key="GridCell.Tab.1.left" timestamp="1610881644911">
+    <state width="1322" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1610889076212" />
+    <state width="1322" height="216" key="GridCell.Tab.1.left" timestamp="1610889076212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1610881644911" />
-    <state width="1322" height="216" key="GridCell.Tab.1.right" timestamp="1610881644911">
+    <state width="1322" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1610889076212" />
+    <state width="1322" height="216" key="GridCell.Tab.1.right" timestamp="1610889076212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1610881644911" />
+    <state width="1322" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1610889076212" />
     <state x="494" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610882546251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -210,13 +219,24 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="95" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1610884902968" />
-    <state x="391" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1610877660833">
+    <state x="391" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1610887779077">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1610877660833" />
+    <state x="391" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1610887779077" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1610889580629">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1610889580629" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610875508253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610875508253" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="args" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

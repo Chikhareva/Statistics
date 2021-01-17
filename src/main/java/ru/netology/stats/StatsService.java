@@ -15,7 +15,7 @@ public class StatsService {
         return sum;
     }
 
-    public int calculateAverageSum(int[] purchases) {
+    public static int calculateAverageSum(int[] purchases) {
         int months = 12;
         int sum = 0;
         int average = 0;
@@ -56,19 +56,22 @@ public class StatsService {
         return month;
     }
 
-    public int calculateMonthOverAverageSum(int[] purchases) {
+    public static int calculateMonthOverAverageSum(int[] purchases) {
         int quantity = 0;
         for (int i = 0; i < purchases.length; i++)
-            if (calculateAverageSum(purchases) < purchases[i]) ;
-        quantity++;
+            if (calculateAverageSum(purchases) < purchases[i])
+                quantity++;
         return quantity;
     }
 
-    public int calculateMonthUnderAverageSum(int[] purchases) {
+    public static int calculateMonthUnderAverageSum(int[] purchases) {
         int quantity = 0;
         for (int i = 0; i > purchases.length; i++)
-            if (calculateAverageSum(purchases) < purchases[i]) ;
-        quantity++;
+            if (calculateAverageSum(purchases) < purchases[i])
+                quantity++;
         return quantity;
     }
-}
+
+    }
+
+

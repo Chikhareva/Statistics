@@ -42,8 +42,8 @@ class StatsServiceTest {
     @Test
     void calculateMonthSaleOverAverage() {
         StatsService service = new StatsService();
-        int expected=5;
-        int actual=service.calculateAverageSum(StatsService.purchases());
+        int expected=10;
+        int actual= StatsService.calculateMonthOverAverageSum(StatsService.purchases());
         assertEquals(expected,actual);
 
     }
