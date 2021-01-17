@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6acdebd7-80aa-4e3f-833a-11e4e9b89170" name="Default Changelist" comment="" />
+    <list default="true" id="6acdebd7-80aa-4e3f-833a-11e4e9b89170" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/stats/StatsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/stats/StatsServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1n98czzj1ju5x7yipkhxPpaE4wk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -44,7 +54,7 @@
       <recent name="ru.netology.stats" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StatsServiceTest.averageSum">
+  <component name="RunManager" selected="JUnit.StatsServiceTest.salesMinimumMonth">
     <configuration name="StatsServiceTest.averageSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="statistics" />
       <extension name="coverage">
@@ -56,6 +66,22 @@
       <option name="PACKAGE_NAME" value="ru.netology.stats" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatsServiceTest" />
       <option name="METHOD_NAME" value="averageSum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsServiceTest.calculateMonthSaleOverAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="statistics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.stats.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.stats" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatsServiceTest" />
+      <option name="METHOD_NAME" value="calculateMonthSaleOverAverage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,8 +103,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StatsServiceTest.salesMaximumMonth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="statistics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.stats.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.stats" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatsServiceTest" />
+      <option name="METHOD_NAME" value="salesMaximumMonth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsServiceTest.salesMinimumMonth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="statistics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.stats.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.stats" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatsServiceTest" />
+      <option name="METHOD_NAME" value="salesMinimumMonth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatsServiceTest.salesMinimumMonth" />
+        <item itemvalue="JUnit.StatsServiceTest.salesMaximumMonth" />
+        <item itemvalue="JUnit.StatsServiceTest.calculateMonthSaleOverAverage" />
         <item itemvalue="JUnit.StatsServiceTest.averageSum" />
         <item itemvalue="JUnit.StatsServiceTest.calculateSum" />
       </list>
@@ -98,6 +159,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="24" key="#Inspections" timestamp="1610876573836">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="24" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1610876573836" />
     <state x="275" y="24" key="#Project_Structure" timestamp="1610800747941">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -106,57 +171,53 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="232" width="397" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1610800756229" />
-    <state width="1322" height="216" key="GridCell.Tab.0.bottom" timestamp="1610804727793">
+    <state width="1322" height="148" key="GridCell.Tab.0.bottom" timestamp="1610883466679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610804727793" />
-    <state width="1322" height="216" key="GridCell.Tab.0.center" timestamp="1610804727793">
+    <state width="1322" height="148" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610883466679" />
+    <state width="1322" height="148" key="GridCell.Tab.0.center" timestamp="1610883466678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610804727793" />
-    <state width="1322" height="216" key="GridCell.Tab.0.left" timestamp="1610804727792">
+    <state width="1322" height="148" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610883466678" />
+    <state width="1322" height="148" key="GridCell.Tab.0.left" timestamp="1610883466678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610804727792" />
-    <state width="1322" height="216" key="GridCell.Tab.0.right" timestamp="1610804727793">
+    <state width="1322" height="148" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610883466678" />
+    <state width="1322" height="148" key="GridCell.Tab.0.right" timestamp="1610883466678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610804727793" />
-    <state width="1322" height="216" key="GridCell.Tab.1.bottom" timestamp="1610804727793">
+    <state width="1322" height="148" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610883466678" />
+    <state width="1322" height="216" key="GridCell.Tab.1.bottom" timestamp="1610881644911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610804727793" />
-    <state width="1322" height="216" key="GridCell.Tab.1.center" timestamp="1610804727793">
+    <state width="1322" height="216" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610881644911" />
+    <state width="1322" height="216" key="GridCell.Tab.1.center" timestamp="1610881644911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1610804727793" />
-    <state width="1322" height="216" key="GridCell.Tab.1.left" timestamp="1610804727793">
+    <state width="1322" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1610881644911" />
+    <state width="1322" height="216" key="GridCell.Tab.1.left" timestamp="1610881644911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1610804727793" />
-    <state width="1322" height="216" key="GridCell.Tab.1.right" timestamp="1610804727793">
+    <state width="1322" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1610881644911" />
+    <state width="1322" height="216" key="GridCell.Tab.1.right" timestamp="1610881644911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1610804727793" />
-    <state x="454" y="95" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610800931970">
+    <state width="1322" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1610881644911" />
+    <state x="494" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610882546251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="454" y="95" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1610800931970" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/stats/StatsServiceTest.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/stats/StatsServiceTest.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="494" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1610882546251" />
+    <state x="454" y="95" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610882654125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="95" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1610882654125" />
+    <state x="391" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1610877660833">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1610877660833" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610875508253">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1610875508253" />
   </component>
 </project>
