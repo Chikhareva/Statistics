@@ -52,7 +52,8 @@ class StatsServiceTest {
     void calculateMonthUnderAverageSum() {
         StatsService service = new StatsService();
         int expected=5;
-        int actual=service.calculateMonthUnderAverageSum(StatsService.purchases());
+        int actual= StatsService.calculateMonthOverAverageSum(StatsService.purchases());
         assertEquals(expected,actual);
+
     }
 }
