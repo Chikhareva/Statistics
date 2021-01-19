@@ -50,17 +50,16 @@ class StatsServiceTest {
         int expected = 10;
         int actual = service.calculateMonthOverAverageSum(purchases);
         assertEquals(expected, actual);
-//
-//    }
-//
-//    @Test
-//    void calculateMonthUnderAverageSum() {
-//        int[] purchases = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
-//        StatsService service = new StatsService();
-//        int expected = 5;
-//        int actual = StatsService.calculateMonthOverAverageSum(StatsService.purchases());
-//        assertEquals(expected, actual);
-//
-//    }
+
+
+    }
+
+    @Test
+    void calculateMonthUnderAverageSum() {
+        int[] purchases = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
+        StatsService service = new StatsService();
+        int expected = 10;
+        int actual = service.calculateMonthUnderAverageSum(purchases);
+        assertEquals(expected, actual);
     }
 }

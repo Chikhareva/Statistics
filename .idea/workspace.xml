@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6acdebd7-80aa-4e3f-833a-11e4e9b89170" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/stats/StatsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/stats/StatsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/stats/StatsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/stats/StatsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/stats/StatsServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/stats/StatsServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/netology/stats/StatsServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +44,8 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.netology.stats" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Chikhareva\IdeaProjects\statistics" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.netology.stats" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -53,8 +53,8 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ru.netology.stats" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chikhareva\IdeaProjects\statistics" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -62,7 +62,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StatsServiceTest.calculateMonthSaleOverAverage">
+  <component name="RunManager" selected="JUnit.StatsServiceTest.calculateMonthUnderAverageSum">
     <configuration name="StatsServiceTest.averageSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="statistics" />
       <extension name="coverage">
@@ -95,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatsServiceTest.calculateSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StatsServiceTest.calculateMonthUnderAverageSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="statistics" />
       <extension name="coverage">
         <pattern>
@@ -105,7 +105,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.stats" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.stats.StatsServiceTest" />
-      <option name="METHOD_NAME" value="calculateSum" />
+      <option name="METHOD_NAME" value="calculateMonthUnderAverageSum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatsServiceTest.calculateMonthUnderAverageSum" />
         <item itemvalue="JUnit.StatsServiceTest.calculateMonthSaleOverAverage" />
         <item itemvalue="JUnit.StatsServiceTest.salesMinimumMonth" />
         <item itemvalue="JUnit.StatsServiceTest.salesMaximumMonth" />
         <item itemvalue="JUnit.StatsServiceTest.averageSum" />
-        <item itemvalue="JUnit.StatsServiceTest.calculateSum" />
       </list>
     </recent_temporary>
   </component>
@@ -187,22 +187,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="232" width="397" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1610800756229" />
-    <state width="1322" height="216" key="GridCell.Tab.0.bottom" timestamp="1610999310900">
+    <state width="1322" height="190" key="GridCell.Tab.0.bottom" timestamp="1611047650431">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610999310900" />
-    <state width="1322" height="216" key="GridCell.Tab.0.center" timestamp="1610999310900">
+    <state width="1322" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611047650431" />
+    <state width="1322" height="190" key="GridCell.Tab.0.center" timestamp="1611047650430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610999310900" />
-    <state width="1322" height="216" key="GridCell.Tab.0.left" timestamp="1610999310900">
+    <state width="1322" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611047650430" />
+    <state width="1322" height="190" key="GridCell.Tab.0.left" timestamp="1611047650430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610999310900" />
-    <state width="1322" height="216" key="GridCell.Tab.0.right" timestamp="1610999310900">
+    <state width="1322" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611047650430" />
+    <state width="1322" height="190" key="GridCell.Tab.0.right" timestamp="1611047650430">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="216" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610999310900" />
+    <state width="1322" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611047650430" />
     <state width="1322" height="216" key="GridCell.Tab.1.bottom" timestamp="1610999310901">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -223,10 +223,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="494" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1610882546251" />
-    <state x="454" y="95" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610884902968">
+    <state x="454" y="95" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1611047547546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="454" y="95" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1610884902968" />
+    <state x="454" y="95" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1611047547546" />
     <state x="391" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1610887779077">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
