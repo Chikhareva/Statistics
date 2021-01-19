@@ -26,7 +26,7 @@ public class StatsService {
         return average;
     }
 
-    public static int salesMaximumMonth(int [] purchases) {
+    public static int salesMaximumMonth(int[] purchases) {
 //        int[] salesStats = purchases();
         int max = purchases[0];
         int monthCounter = 0;
@@ -41,7 +41,7 @@ public class StatsService {
         return month;
     }
 
-    public static int salesMinimumMonth(int [] purchases) {
+    public static int salesMinimumMonth(int[] purchases) {
 //        int[] salesStats = purchases();
         int min = purchases[0];
         int monthCounter = 0;
@@ -64,9 +64,9 @@ public class StatsService {
         for (int num : purchases) {
 //            month = month + 1;
 //            monthCounter++;
-            if (num>average){
+            if (num > average) {
 //                num=average;
-                quantity=quantity+1;
+                quantity = quantity + 1;
             }
             return quantity;
 
