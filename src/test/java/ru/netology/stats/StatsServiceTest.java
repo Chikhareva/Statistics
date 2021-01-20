@@ -10,7 +10,7 @@ class StatsServiceTest {
     void calculateSum() {
         int[] purchases = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         StatsService service = new StatsService();
-        int expected = 200;
+        int expected = 180;
         int actual = service.calculateSum(purchases);
         assertEquals(expected, actual);
     }
@@ -19,7 +19,7 @@ class StatsServiceTest {
     void averageSum() {
         int[] purchases = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         StatsService service = new StatsService();
-        int expected = 20;
+        int expected = 15;
         int actual;
         actual = service.calculateAverageSum(purchases);
         assertEquals(expected, actual);
@@ -29,7 +29,7 @@ class StatsServiceTest {
     void salesMaximumMonth() {
         int[] purchases = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         StatsService service = new StatsService();
-        int expected = 15;
+        int expected = 8;
         int actual = service.salesMaximumMonth(purchases);
         assertEquals(expected, actual);
     }
@@ -38,7 +38,7 @@ class StatsServiceTest {
     void salesMinimumMonth() {
         int[] purchases = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         StatsService service = new StatsService();
-        int expected = 14;
+        int expected = 9;
         int actual = service.salesMinimumMonth(purchases);
         assertEquals(expected, actual);
     }
@@ -47,9 +47,10 @@ class StatsServiceTest {
     void calculateMonthSaleOverAverage() {
         int[] purchases = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         StatsService service = new StatsService();
-        int expected = 10;
+        int expected = 5;
         int actual = service.calculateMonthOverAverageSum(purchases);
         assertEquals(expected, actual);
+
 
 
     }
@@ -58,7 +59,7 @@ class StatsServiceTest {
     void calculateMonthUnderAverageSum() {
         int[] purchases = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         StatsService service = new StatsService();
-        int expected = 10;
+        int expected = 5;
         int actual = service.calculateMonthUnderAverageSum(purchases);
         assertEquals(expected, actual);
     }
